@@ -16,7 +16,8 @@ function Search() {
   };
   return (
     <div className="search">
-      <form onSubmit={(e) => handleSubmit(e)} className="search__form">
+        <h1>{search.query}</h1>
+      <form onSubmit={(e) => handleSubmit(e)} className="search__form" autoComplete="off">
         <input
           name="query"
           onChange={(e) => handleChange(e)}
