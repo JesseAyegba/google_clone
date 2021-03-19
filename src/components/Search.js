@@ -9,7 +9,7 @@ function Search() {
     query: "",
   });
   let handleSubmit = (e) => {
-    // e.preventDefault();
+    e.preventDefault();
   };
   let handleChange = (e) => {
     let text = e.target.value;
