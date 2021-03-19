@@ -1,6 +1,36 @@
 .search {
-    width: 500px;
+    margin: 10px auto;
+    /* border: 2px red solid; */
+    width: 900px;
+}
+.search__image {
+    display: block;
+    width: 400px;
     margin: 0 auto;
-    margin-top: 200px;
-    border: 2px red solid;
+}
+.search__box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 600px;
+    border: 1px lightgray solid;
+    border-radius: 50px;
+    margin: 30px auto;
+}
+.search__box:hover {
+    box-shadow: 0 0 8px 0 lightgray;
+}
+.search__input{
+    width: 500px;
+    padding: 10px 10px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+}
+.search__icon {
+    font-size: 20px;
+    color: gray;
+}
+.search__icon--mic {
+    color: #4285F4;
 }
