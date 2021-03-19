@@ -38,7 +38,10 @@ function Search() {
           />
           <BsFillMicFill className="search__icon search__icon--mic" />
         </div>
-        <button type="submit">Search</button>
+        <div className="search__buttons">
+          <button className="search__button" type="submit">Google Search</button>
+          <button className="search__button" type="submit">I'm Feeling Lucky</button>
+        </div>
       </form>
     </div>
   );

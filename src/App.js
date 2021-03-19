@@ -6,6 +6,7 @@ function App() {
     return(
         <div className="app">
             <Search />
+            <p className="app__information">Built by: JesseNeon</p>
         </div>
     )
 }

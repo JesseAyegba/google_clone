@@ -34,3 +34,18 @@
 .search__icon--mic {
     color: #4285F4;
 }
+.search__buttons {
+    text-align: center;
+}
+.search__button {
+    margin: 0 7px;
+    padding: 10px 20px;
+    background-color: rgb(234, 237, 241);
+    border-radius: 5px;
+    border: 1px rgb(234, 237, 241) solid;
+    outline: none;
+    cursor: pointer;
+}
+.search__button:hover {
+    border: 1px rgb(201, 206, 211) solid;
+}
