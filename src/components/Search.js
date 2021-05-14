@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Search.css";
 import google from "../svgs/Google.svg";
 import { AiOutlineSearch } from "react-icons/ai";
@@ -17,6 +17,17 @@ function Search() {
       [e.target.name]: text,
     });
   };
+  let url = "jsonData.json";
+  
+   useEffect(()=>{
+     
+
+     fetch(url).then((response)=>{
+        return response.json;
+     }).then((data)=>{
+       console.log(data);
+     })
+   },[])
   return (
     <div className="search">
       <div className="search__imageWrapper">
